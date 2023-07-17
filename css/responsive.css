@@ -1,0 +1,91 @@
+@media screen and (max-width: 374px) {
+    /* .hero {
+        display: none; 
+    }*/
+}
+
+@media screen and (min-width: 376px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .svg-mobile, .svg-desktop {
+        display: none;
+    }
+
+    .banner {
+        display: block;
+        width: 100vw;
+        height: 284px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/images/illustration-sign-up-mobile.svg);
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-height: 400px) {
+    main {
+        height: fit-content;
+        padding: 40px 0 20px 0;
+    }
+
+    .attribution {
+        position: relative;
+    }
+
+    .banner, .svg-desktop, .svg-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background: var(--Dark-Slate-Grey);
+        position: relative;
+    }
+
+    main {
+        flex-direction: row-reverse;
+        width: fit-content;
+        background: white;
+        height: fit-content;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.209);
+        padding-bottom: 0;
+    }
+
+
+    section {
+        width: 400px;
+    }
+
+    .svg-desktop {
+        display: initial;
+        width: 300px;
+        height: 444px;
+        padding: 10px;
+        position: static;
+    }
+
+    .svg-mobile, .banner {
+        display: none;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+    }
+
+}
