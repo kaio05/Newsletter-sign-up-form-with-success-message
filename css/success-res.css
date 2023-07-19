@@ -11,9 +11,9 @@
         transform: translate(-50%, -50%);
     }
 
-    .success {
+    /* .success {
         margin-top: ;
-    }
+    } */
 
     p, h1 {
         max-width: 300px;
@@ -22,7 +22,7 @@
     .dismiss {
         max-width: 300px;
         position: static;
-        margin-top: 30px;
+        margin-top: 0;
     }
 }
 
